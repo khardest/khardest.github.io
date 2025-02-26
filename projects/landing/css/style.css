@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    background-color: #f2f2ed;
+    font-family: "Sigmar";
+}
+
+header img {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}
+
+main,
+header,
+footer {
+    padding: 3em 0;
+}
+
+header {
+    background-color: black;
+}
+
+.nav-link {
+    color: #f2f2ed;
+}
+
+.description-section {
+    background-color: #23593e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-image-section {
+    margin: 0 auto;
+    display: block;
+}
+
+.adopt-foster-donate-section img {
+    width: 50%;
+}
+
+footer {
+    background-color: black;
+    color: #f2f2ed;
+    font-size: 2em;
+}
