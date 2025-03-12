@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Convergence&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+h1 {
+font-family: "Josefin Sans", sans-serif;
+font-size: 10em;
+}
+
+h2{
+font-family: "Convergence", sans-serif;   
+}
+
+body{
+font-family: "Cardo", serif; 
+}
+
+body{
+background-color:#fcebf5 ;
+}
+
+.other-header {
+    text-align: right;
+    font-size: 8em;
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    width: 100%;
+    padding: 10px 0; 
+    font-family:"Convergence", sans-serif;
+    color:#33322d; 
+}
+
+.main-image-section {
+    width: 50%;
+    padding: 2em;
+   
+}
+
+hr {
+    border: none;
+    height: 2px; /* Line thickness */
+    background-color: #33322d ; /* Line color */
+    width: 90%; /* Adjust width */
+    margin: 0px auto; /* Centers the line */
+}
