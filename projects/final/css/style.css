@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: lightblue;
+    color: #031339;
+    font-family: "ABeeZee", sans-serif;
+}
+
+
+h1 {
+    font-family: "Josefin-sans", sans-serif;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+}
+
+.img-portrait {
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .img-group {
+    max-width: 900px;
+    aspect-ratio: 16 / 9;
+    margin: 0 auto;
+    display: block;
+  }
+
+
+p {
+    font-size: 1.1rem;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+iframe {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+
+    border-radius: 8px;
+
+  }
+  
+
+header {
+    background-color: #031339;
+    color:aliceblue; 
+    padding: 2em; 
+}
+  
+
+div {
+    padding: 1.5em
+}
+
+.timberlake-box {
+    background-color: #e9f5ff; 
+    padding: 4em;
+    border-radius: 12px;
+    margin: 2em;
+    text-align: center;
+  }
+  
+  .chasez-box {
+    background-color: #8ec1f1; 
+    padding: 4em;
+    border-radius: 12px;
+    margin: 2em;
+    text-align: center;
+  }
+
+  .harry-box {
+    background-color: #b1b8f5; 
+    padding: 4em;
+    border-radius: 12px;
+    margin: 2em;
+    text-align: center;
+  }
+  
+  .liam-box {
+    background-color: #d2bdf8; 
+    padding: 4em;
+    border-radius: 12px;
+    margin: 2em;
+    text-align: center;
+  }
