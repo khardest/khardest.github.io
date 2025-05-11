@@ -28,12 +28,12 @@ img {
 
 .img-portrait {
   max-width: 400px;
-  height: 500px
+  height: auto;
 }
 
 .img-group {
   max-width: 600px;
-  height: 400px;
+  height: auto;
 }
 
 iframe {
@@ -41,6 +41,7 @@ iframe {
   border-radius: 8px;
   padding-top: 1.5em;
   height: 200px;
+  width: 100%;
 }
 
 header {
@@ -97,4 +98,14 @@ section {
   padding: 4em;
   border-radius: 12px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+
+  .timberlake-box,
+  .chasez-box,
+  .liam-box,
+  .harry-box {
+    margin-bottom: 2em;
+  }
 }
