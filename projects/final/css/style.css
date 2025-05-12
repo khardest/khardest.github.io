@@ -44,6 +44,7 @@ iframe {
   width: 100%;
 }
 
+
 header {
   background-color: #031339;
   color: aliceblue;
@@ -71,34 +72,33 @@ section {
   text-align: center;
 }
 
-.timberlake-box {
-  background-color: #e9f5ff;
-  padding: 4em;
-  border-radius: 12px;
-  text-align: center;
-}
-
-.chasez-box {
-  background-color: #8ec1f1;
+.timberlake-box,
+.chasez-box,
+.harry-box,
+.liam-box {
   padding: 2em;
   padding-top: 4em;
   border-radius: 12px;
   text-align: center;
 }
 
+.timberlake-box {
+  background-color: #e9f5ff;
+}
+
+.chasez-box {
+  background-color: #8ec1f1;
+}
+
 .harry-box {
   background-color: #b1b8f5;
-  padding: 4em;
-  border-radius: 12px;
-  text-align: center;
 }
 
 .liam-box {
   background-color: #d2bdf8;
-  padding: 4em;
-  border-radius: 12px;
-  text-align: center;
 }
+
+
 
 @media (max-width: 768px) {
 
